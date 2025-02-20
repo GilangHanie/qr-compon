@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <style>
+    .full-screen-container {
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: rgb(214, 225, 240);
+    }
+    .card {
+      background-color: white;
+      border-radius: 15px;
+      padding-left: 20px;
+      padding-top: 20px;
+      padding-right: 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 320px;
+    }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      margin-top: 10px;
+    }
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+      text-decoration: none;
+    }
+    @media (max-width: 600px) {
+      .card {
+        width: 90%;
+        padding: 15px;
+      }
+      .card p {
+        font-size: 14px;
+      }
+      .full-screen-container {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="full-screen-container">
+    <div class="card">
+      <img style="border-radius: 15px;" src="C:\Users\Advan\OneDrive\Desktop\qr-compon\images\image-qr-code.png" alt="qr">
+      <p style="font-size: 20px; padding-top: 10px; padding-right: 10px; padding-left: 10px;"><b>Improve your front-end skills by building projects</b></p> 
+      <p style="font-size: 16px; padding-bottom: 10px;">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Gilang Hasbillah</a>.
+  </div>
+  </div>
+</body>
+</html>
